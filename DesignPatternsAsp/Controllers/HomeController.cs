@@ -1,30 +1,36 @@
-﻿using DesignPatternsAsp.Models;
+﻿using DesignPattern.Singleton;
+using DesignPatternsAsp.Configuration;
+using DesignPatternsAsp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace DesignPatternsAsp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IOptions<MyConfig> _config;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IOptions<MyConfig> config)
         {
-            _logger = logger;
+            _config = config;
         }
 
         public IActionResult Index()
         {
+            Log.GetInstance(_config.Value.PathLog).Save("Entró a index");
             return View();
         }
 
         public IActionResult Privacy()
         {
+            Log.GetInstance(_config.Value.PathLog).Save("Entró a privacy");
             return View();
         }
 

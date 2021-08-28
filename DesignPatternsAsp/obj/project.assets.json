@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Tool/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Tool.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tool.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Tool/1.0.0": {
+      "type": "project",
+      "path": "../Tool/Tool.csproj",
+      "msbuildProject": "../Tool/Tool.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Tool >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\QCODE\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tool\\Tool.csproj": {
+              "projectPath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tool\\Tool.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -68,7 +91,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
