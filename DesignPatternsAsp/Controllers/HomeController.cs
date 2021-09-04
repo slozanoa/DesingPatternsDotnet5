@@ -1,5 +1,4 @@
-﻿using DesignPattern.Singleton;
-using DesignPatternsAsp.Configuration;
+﻿using DesignPatternsAsp.Configuration;
 using DesignPatternsAsp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,14 +8,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Tools;
 
 namespace DesignPatternsAsp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly IOptions<MyConfig> _config;
-
         public HomeController(IOptions<MyConfig> config)
         {
             _config = config;

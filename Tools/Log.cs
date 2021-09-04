@@ -1,24 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DesignPattern.Singleton
+namespace Tools
 {
     public sealed class Log
     {
-        private static Log _instace = null;
+        private static Log _instance = null;
         private string _path;
-        
+        private static object _protect = new object();
         public static Log GetInstance(string path)
         {
-            if (_instace == null)
+            lock (_protect)
             {
-                _instace = new Log(path);
+                if (_instance == null)
+                {
+                    _instance = new Log(path);
+                }
             }
-            return _instace;
+            
+            return _instance;
         }
 
         private Log(string path)

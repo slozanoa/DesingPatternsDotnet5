@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Tool/1.0.0": {
+      "Tools/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Tool.dll": {}
+          "bin/placeholder/Tools.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Tool.dll": {}
+          "bin/placeholder/Tools.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Tool/1.0.0": {
+    "Tools/1.0.0": {
       "type": "project",
-      "path": "../Tool/Tool.csproj",
-      "msbuildProject": "../Tool/Tool.csproj"
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Tool >= 1.0.0"
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -58,8 +58,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tool\\Tool.csproj": {
-              "projectPath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tool\\Tool.csproj"
+            "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tools\\Tools.csproj": {
+              "projectPath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\Tools\\Tools.csproj"
             }
           }
         }

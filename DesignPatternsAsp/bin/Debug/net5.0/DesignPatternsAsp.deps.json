@@ -33,7 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DesignPatternsAsp/1.0.0": {
         "dependencies": {
-          "Tool": "1.0.0",
+          "Tools": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -325,12 +325,12 @@
           "DesignPatternsAsp.dll": {}
         }
       },
-      "Tool/1.0.0": {
+      "Tools/1.0.0": {
         "runtime": {
-          "Tool.dll": {}
+          "Tools.dll": {}
         },
         "compile": {
-          "Tool.dll": {}
+          "Tools.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2039,7 +2039,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Tool/1.0.0": {
+    "Tools/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
