@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern.FactoryPattern;
+using System;
 
 namespace DesignPattern
 {
@@ -6,15 +7,14 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            var log = Singleton.Log.Instance;
+            SaleFactory storeSaleFactory = new StoreSaleFactory(10);
+            SaleFactory internetSaleFactory = new InternetSaleFactory(2);
 
-            log.Save("a");
-            log.Save("b");
+            ISale sale1 = storeSaleFactory.GetSale();
+            sale1.Sell(15);
 
-
-            var a = Singleton.Singleton.Instance;      
-            var b = Singleton.Singleton.Instance;
-            Console.WriteLine(a == b);  
+            ISale sale2 = internetSaleFactory.GetSale();
+            sale2.Sell(15);
         }
     }
 }
