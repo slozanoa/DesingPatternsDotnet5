@@ -10,3 +10,15 @@ D:\santiago\c#\patrones_de_diseño\DesignPattern\Tools\obj\Debug\net5.0\Tools.cs
 D:\santiago\c#\patrones_de_diseño\DesignPattern\Tools\obj\Debug\net5.0\Tools.dll
 D:\santiago\c#\patrones_de_diseño\DesignPattern\Tools\obj\Debug\net5.0\ref\Tools.dll
 D:\santiago\c#\patrones_de_diseño\DesignPattern\Tools\obj\Debug\net5.0\Tools.pdb
+D:\santiago\cshart\Tools\bin\Debug\net5.0\Tools.deps.json
+D:\santiago\cshart\Tools\bin\Debug\net5.0\Tools.dll
+D:\santiago\cshart\Tools\bin\Debug\net5.0\ref\Tools.dll
+D:\santiago\cshart\Tools\bin\Debug\net5.0\Tools.pdb
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.csproj.AssemblyReference.cache
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.AssemblyInfoInputs.cache
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.AssemblyInfo.cs
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.csproj.CoreCompileInputs.cache
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.dll
+D:\santiago\cshart\Tools\obj\Debug\net5.0\ref\Tools.dll
+D:\santiago\cshart\Tools\obj\Debug\net5.0\Tools.pdb

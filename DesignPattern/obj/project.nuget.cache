@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ARNR0MzBygkaEJY527U2X1PwMX5vHunIstEF5SQyVBHZwbBpIAOXkOMZ3soBh03tj+SLoSwr9hScANhSPl/6ZQ==",
+  "dgSpecHash": "gAVjKh1U7+AC1BkaDF/REmiryTpghugS+l55bcZjFv1syDEAxmXBpvYk98+jaZkXvYesSmAhnSC8Fhz3XePIMQ==",
   "success": true,
-  "projectFilePath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+  "projectFilePath": "D:\\santiago\\cshart\\DesignPattern\\DesignPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

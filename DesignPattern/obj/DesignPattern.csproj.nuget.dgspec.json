@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {}
+    "D:\\santiago\\cshart\\DesignPattern\\DesignPattern.csproj": {}
   },
   "projects": {
-    "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {
+    "D:\\santiago\\cshart\\DesignPattern\\DesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+        "projectUniqueName": "D:\\santiago\\cshart\\DesignPattern\\DesignPattern.csproj",
         "projectName": "DesignPattern",
-        "projectPath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
-        "packagesPath": "C:\\Users\\QCODE\\.nuget\\packages\\",
-        "outputPath": "D:\\santiago\\c#\\patrones_de_diseño\\DesignPattern\\DesignPattern\\obj\\",
+        "projectPath": "D:\\santiago\\cshart\\DesignPattern\\DesignPattern.csproj",
+        "packagesPath": "C:\\Users\\bigfr\\.nuget\\packages\\",
+        "outputPath": "D:\\santiago\\cshart\\DesignPattern\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\QCODE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\bigfr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
